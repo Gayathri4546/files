@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; }
+    form { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 300px; }
+    h2 { text-align: center; }
+    label { display: block; margin: 10px 0 5px; }
+    input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+    button { width: 100%; padding: 12px; background: #ff7e5f; border: none; color: white; font-size: 1em; border-radius: 6px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <form action="thankyou.html">
+    <h2>Payment Info</h2>
+    <label>Card Number</label>
+    <input type="text" required>
+    <label>Expiry Date</label>
+    <input type="month" required>
+    <label>CVV</label>
+    <input type="password" maxlength="4" required>
+    <button type="submit">Pay Now</button>
+  </form>
+</body>
+</html>
